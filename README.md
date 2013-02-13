@@ -1,8 +1,6 @@
 # GitX Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `boxen`
+Install [GitX](http://gitx.frim.nl), a Mac OS X GUI front-end for Git.
 
 ## Usage
 
@@ -10,8 +8,11 @@ Requires the following boxen modules:
 include gitx
 ```
 
-## Developing
+## Required Puppet Modules
 
-Write code.
+* `boxen`
 
-Run `script/cibuild`.
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
