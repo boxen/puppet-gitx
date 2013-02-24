@@ -16,3 +16,11 @@ describe 'gitx::l' do
     })
   end
 end
+
+describe 'gitx::dev' do
+  it do
+    should contain_package('GitX').with({
+      :source   => 'http://cloud.github.com/downloads/rowanj/gitx/GitX-dev-57.zip',
+    })
+  end
+end
