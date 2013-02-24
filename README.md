@@ -8,10 +8,16 @@ Install [GitX](http://gitx.frim.nl), a Mac OS X GUI front-end for Git.
 include gitx
 ```
 
-Or use [GitX (L)](http://gitx.laullon.com/) instead:
+Or use [GitX (L)](http://gitx.laullon.com/):
 
 ```puppet
 include gitx::l
+```
+
+Or use [GitX-dev](http://rowanj.github.com/gitx/):
+
+```puppet
+include gitx::dev
 ```
 
 ## Required Puppet Modules
